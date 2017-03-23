@@ -14,7 +14,7 @@ private let kGameViewH : CGFloat = 90
 class PJRecommondVC: PJRootViewController {
 
     // MARK:- 懒加载属性
-//    lazy var <#variable name#> = <#expression#>
+    fileprivate lazy var recommendVM : PJRecommondViewModel = PJRecommondViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
 

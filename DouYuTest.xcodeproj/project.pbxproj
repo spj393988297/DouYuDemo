@@ -36,6 +36,7 @@
 		1F82215B1E7BBB96007A6FB3 /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82215A1E7BBB96007A6FB3 /* CycleModel.swift */; };
 		1F82215D1E7BBBC2007A6FB3 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82215C1E7BBBC2007A6FB3 /* GameModel.swift */; };
 		1F82215F1E7BC715007A6FB3 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82215E1E7BC715007A6FB3 /* NSDate+Extension.swift */; };
+		1F851A2F1E83CA0D00E7BF2E /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F851A2E1E83CA0D00E7BF2E /* NetworkTools.swift */; };
 		1F8D35951E7B8BEC0066D9AD /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D35941E7B8BEC0066D9AD /* BaseViewModel.swift */; };
 		4CA26E66ECCD200B4C0E8E5A /* Pods_DouYuTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECCC5D07B379EFB9FAC9CC1 /* Pods_DouYuTest.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +94,7 @@
 		1F82215A1E7BBB96007A6FB3 /* CycleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CycleModel.swift; path = "首页/Model/CycleModel.swift"; sourceTree = "<group>"; };
 		1F82215C1E7BBBC2007A6FB3 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		1F82215E1E7BC715007A6FB3 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		1F851A2E1E83CA0D00E7BF2E /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkTools.swift; path = Tool/NetworkTools.swift; sourceTree = "<group>"; };
 		1F8D35941E7B8BEC0066D9AD /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = RootClass/BaseViewModel.swift; sourceTree = "<group>"; };
 		232FC42645271678890E7AEE /* Pods-DouYuTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTest/Pods-DouYuTest.debug.xcconfig"; sourceTree = "<group>"; };
 		486690712EA6140619988A2F /* Pods-DouYuTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuTest/Pods-DouYuTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 			children = (
 				1F4A8ECC1E7A6DD800E92208 /* Extension */,
 				1F4A8ED11E7A6F2100E92208 /* PJCommon.swift */,
+				1F851A2E1E83CA0D00E7BF2E /* NetworkTools.swift */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -644,6 +647,7 @@
 				1F4A8EC71E7A3C0500E92208 /* PJMineViewController.swift in Sources */,
 				1F4A8EC21E7A3BFD00E92208 /* PJCollectViewController.swift in Sources */,
 				1F82215B1E7BBB96007A6FB3 /* CycleModel.swift in Sources */,
+				1F851A2F1E83CA0D00E7BF2E /* NetworkTools.swift in Sources */,
 				1F4A8ECE1E7A6DD800E92208 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
